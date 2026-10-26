@@ -1,0 +1,48 @@
+baseURL: "https://K3y-D0.github.io/"
+locale: vi
+title: K3y-D0
+theme: nerdy
+
+disableKinds:
+  - taxonomy
+  - term
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: 'assets/notwatching/hugo_stats\.json'
+      target: css
+
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^postcss$'
+      - '^tailwindcss$'
+
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: data
+      target: data
+    - source: layouts
+      target: layouts
+    - source: assets
+      target: assets
+    - source: static
+      target: static
+    - source: archetypes
+      target: archetypes
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json

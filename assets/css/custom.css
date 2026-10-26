@@ -1,0 +1,36 @@
+/* Site-level tweaks, loaded after the Nerdy theme stylesheet. */
+
+.nerdy-card,
+.nerdy-card-title,
+.nerdy-card p {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Comfortable reading width and spacing for writeups */
+article .prose {
+  max-width: 78ch;
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+article .prose h2,
+article .prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  scroll-margin-top: 6rem;
+}
+
+article .prose pre {
+  max-width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+article .prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}

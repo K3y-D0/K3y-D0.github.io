@@ -1,0 +1,75 @@
+id: featured-projects
+type: projects
+icon: code
+title: Writeup nổi bật
+
+items:
+  - title: Web2 - CSCV2026
+    role: Web Security CTF
+    description: Phân tích thử thách Web CTF, tìm hiểu GraphQL, JWT và SQL Injection qua các bước khai thác.
+    tech:
+      - GraphQL
+      - JWT
+      - SQL Injection
+    accent: purple
+    type: Web
+    links:
+      - label: Đọc writeup
+        url: /posts/northstar/
+        icon: article
+
+  - title: FOR01 + FOR02 - CSCV2026
+    role: Digital Forensics CTF
+    description: Khôi phục dữ liệu SQLite WAL và phân tích NTFS USN Journal để tìm dấu vết trong thử thách Forensics.
+    tech:
+      - SQLite WAL
+      - NTFS
+      - Forensics
+    accent: cyan
+    type: Forensics
+    links:
+      - label: Đọc writeup
+        url: /posts/for01-for02/
+        icon: article
+
+  - title: REV01 - CSCV2026
+    role: Reverse Engineering CTF
+    description: Gỡ rối PE 15 MB (MBA, control-flow flattening), dựng lại giao thức C2, phân tích payload Intel GPU zebin/SPIR-V và khai thác server để lấy flag.
+    tech:
+      - Obfuscation
+      - OpenCL / SPIR-V
+      - Unicorn
+    accent: emerald
+    type: Rev
+    links:
+      - label: Đọc writeup
+        url: /posts/rev01/
+        icon: article
+
+  - title: CRYPT03 - CSCV2026
+    role: Cryptography CTF
+    description: Tấn công Square/integral lên AES-128 rút gọn 6 vòng, khai thác parity bitmap và kỹ thuật partial sums trên GPU để khôi phục khóa và giải flag.
+    tech:
+      - AES
+      - Square Attack
+      - Partial Sums
+    accent: amber
+    type: Crypto
+    links:
+      - label: Đọc writeup
+        url: /posts/crypt03/
+        icon: article
+
+  - title: For3 - CTF CSCV2026
+    role: Digital Forensics CTF
+    description: Điều tra snapshot VMware, đọc cache trình duyệt Edge và khôi phục file đã xoá qua NTFS $I30 để dựng lại chuỗi SHA-256 ghép thành flag.
+    tech:
+      - VMware VMDK
+      - NTFS $I30
+      - Edge Cache
+    accent: cyan
+    type: Forensics
+    links:
+      - label: Đọc writeup
+        url: /posts/for3/
+        icon: article

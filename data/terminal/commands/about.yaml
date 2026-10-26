@@ -1,0 +1,15 @@
+name: about
+label: Giới thiệu
+description: Blog này viết về gì
+quick: true
+weight: 10
+greeting: "Welcome to my CTF Blog!"
+person_name: "K3y-D0"
+summary: "Chia sẻ kiến thức Cybersecurity, CTF và các bài writeup."
+details:
+  - "Web Security: SQL Injection, XSS, Authentication và các lỗ hổng web."
+  - "Cryptography: RSA, mã hóa, phân tích và giải mã dữ liệu."
+  - "Digital Forensics: Phân tích SQLite, NTFS và khôi phục dữ liệu."
+quote:
+  text: "Learn. Explore. Exploit. Understand."
+  author: "K3y-D0"

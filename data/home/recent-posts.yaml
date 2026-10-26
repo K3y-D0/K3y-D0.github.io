@@ -1,0 +1,17 @@
+id: recent-posts
+type: projects
+icon: article
+title: BLOG
+
+items:
+  - title: CTF CSCV2026
+    role: Tổng hợp writeup CSCV 2026
+    description: Tất cả writeup CTF CSCV 2026 - Web, Forensics, Reverse Engineering và Cryptography trong một bộ sưu tập.
+    tech:
+      - Web
+      - Forensics
+      - Rev
+      - Crypto
+    accent: purple
+    type: CTF
+    url: /posts/

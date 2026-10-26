@@ -1,0 +1,25 @@
+name: skills
+label: Kỹ năng
+description: Các mảng CTF đang luyện
+quick: true
+weight: 20
+categories:
+  - key: web
+    items:
+      - SQL Injection
+      - XSS
+      - JWT
+      - GraphQL
+  - key: crypto
+    items:
+      - RSA
+      - Classical ciphers
+  - key: forensics
+    items:
+      - SQLite WAL
+      - NTFS USN Journal
+  - key: tools
+    items:
+      - Burp Suite
+      - Python
+      - Linux / Bash

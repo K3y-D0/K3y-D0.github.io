@@ -1,0 +1,14 @@
+user: guest
+host: k3y-d0
+directory: "~"
+window_title: "guest@k3y-d0:~"
+auto_command: about
+builtins:
+  - name: clear
+    description: Xoá màn hình terminal
+  - name: whoami
+    description: In tên người dùng hiện tại
+  - name: date
+    description: Hiển thị ngày hiện tại
+  - name: echo
+    description: In lại đoạn văn bản

@@ -1,0 +1,26 @@
+profile:
+  name: "Nickname: K3y-D0"
+  title: "Realname: NGUYEN HOANG NAM"
+  description: Ghi chép quá trình giải CTF về Web Security, Cryptography và Digital Forensics.
+  status:
+    label: Đang học
+    value: Web & Forensics
+    preference_label: Mục tiêu
+    preference: Hiểu bản chất, không chỉ lấy flag
+  links:
+    - icon: github
+      label: github.com/K3y-D0
+      url: https://github.com/K3y-D0
+
+sections:
+  - id: focus
+    type: tags
+    title: Chủ đề
+    items:
+      - Web Security
+      - Cryptography
+      - Forensics
+      - GraphQL
+      - JWT
+      - SQLite
+      - NTFS

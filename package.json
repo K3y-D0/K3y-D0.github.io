@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "hugo --renderToMemory && hugo server --buildDrafts",
+    "build": "hugo --renderToMemory && hugo --minify --gc --cleanDestinationDir"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.3"
+  },
+  "dependencies": {
+    "alpinejs": "^3.17.5"
+  }
+}

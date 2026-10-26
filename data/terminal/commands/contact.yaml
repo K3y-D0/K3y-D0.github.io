@@ -1,0 +1,11 @@
+name: contact
+label: Liên hệ
+description: Cách liên hệ với mình
+quick: true
+weight: 50
+intro: Có câu hỏi về writeup? Cứ nhắn mình nhé!
+links:
+  - label: GitHub
+    text: https://github.com/K3y-D0
+    url: https://github.com/K3y-D0
+outro: Gõ "help" để xem các lệnh khác.
